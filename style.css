@@ -1,0 +1,56 @@
+body{
+	background-color: #eee;
+	font-family: 'Lobster', cursive;
+}
+
+ul{
+	list-style-type: none;
+	width: 250px;
+	margin: auto;
+	/*border: 1px solid black;*/
+	padding: 0;
+	position: relative;
+}
+
+nav li{
+	width: 150px;
+	height: 150px;
+	background-color: #D97944;
+	border-radius: 200px;
+	margin: 40px auto;
+	transition: all 0.5s;
+}
+
+nav li a{
+	display: block;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	padding-top: 50px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.25em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav li:hover{
+	background-color: #25BBB0;
+	width: 200px;
+	height: 200px;
+}
+
+nav li:hover a{
+	padding-top: 80px;
+	font-size: 1.5em;
+}
+
+#franja{
+	width: 20px;
+	height: 100%;
+	background-color: #F2D767;
+	position: absolute;
+	top: -20px;
+	left: 115px;
+	z-index: -1;
+}
